@@ -1,10 +1,11 @@
 // 변수 선언과 할당
 let name = 'John';
 let age = 30;
-
+let num = 5;
 // 반복문 (for 문)
 for (let i = 0; i < 5; i++) {
-  console.log('Index:', i);
+  num = num + 5;
+  console.log('Index:', num);
 }
 
 // 조건문 (if 문)
